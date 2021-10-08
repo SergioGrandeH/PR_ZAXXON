@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class InitGame : MonoBehaviour
-{
 
+{
     public float NaveSpeed;
+
     // Start is called before the first frame update
     void Start()
     {
-        NaveSpeed = 30f;
+        NaveSpeed = 25f;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 }

@@ -4,7 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - columna: {fileID: 4731080210688860900, guid: 4645faf7bf52ff04a93c0eaf28176a42, type: 3}
+  - Obstaculo: {fileID: 4731080210688860900, guid: 4645faf7bf52ff04a93c0eaf28176a42, type: 3}
   - instantiatePos: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}

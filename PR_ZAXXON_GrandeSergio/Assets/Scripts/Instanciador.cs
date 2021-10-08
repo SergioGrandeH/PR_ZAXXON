@@ -11,9 +11,11 @@ public class Instanciador : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        intervalo = 1f;
+        intervalo = 0.3f;
 
         StartCoroutine("CrearColumna");
+   
+
     }
 
     // Update is called once per frame
@@ -33,5 +35,5 @@ public class Instanciador : MonoBehaviour
 
             yield return new WaitForSeconds(intervalo);
         }
-    }
+    }  
 }

@@ -10,8 +10,7 @@ public class Nave : MonoBehaviour
 
 
 
-    //Restricción
-    float limiteH = 20;
+   
 
     // Start is called before the first frame update
     void Start()

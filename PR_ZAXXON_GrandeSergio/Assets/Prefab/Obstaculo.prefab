@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1991906546406481269}
   - component: {fileID: 8762496159612861439}
-  - component: {fileID: -4660355129514218026}
   m_Layer: 0
   m_Name: Obstaculo
   m_TagString: Untagged
@@ -48,19 +47,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initObject: {fileID: 4731080210688860900}
---- !u!114 &-4660355129514218026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4731080210688860900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41dec4897554dfa4b93b952b286253a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spaceshipSpeed: 0
 --- !u!1 &4975495199279684905
 GameObject:
   m_ObjectHideFlags: 0
