@@ -9,7 +9,7 @@ public class InitGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        NaveSpeed = 15f;
+        NaveSpeed = 30f;
     }
 
     // Update is called once per frame

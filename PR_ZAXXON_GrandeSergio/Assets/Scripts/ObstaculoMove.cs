@@ -25,13 +25,17 @@ public class ObstaculoMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        {
+        
             speed = initGame.NaveSpeed;
 
             //speed = 20f;
             
             transform.Translate(Vector3.back * Time.deltaTime * speed);
-        }
 
+        float posz = transform.position.z;
+        if (posz <-20)
+        {
+            Destroy(gameObject);
+        }
     }
 }
