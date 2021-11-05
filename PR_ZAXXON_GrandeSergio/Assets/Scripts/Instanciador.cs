@@ -8,12 +8,16 @@ public class Instanciador : MonoBehaviour
     [SerializeField] GameObject Obstaculo;
     [SerializeField] Transform instantiatePos;
 
+
     // Start is called before the first frame update
     void Start()
     {
         intervalo = 0.3f;
+        
+
 
         StartCoroutine("CrearColumna");
+      
    
 
     }

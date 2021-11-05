@@ -7,11 +7,6 @@ public class Nave : MonoBehaviour
     public float desplSpeed;
     public float rotationSpeed;
 
-
-
-
-   
-
     // Start is called before the first frame update
     void Start()
     {
@@ -29,14 +24,15 @@ public class Nave : MonoBehaviour
         float desplr = Input.GetAxis("Rotacion");
 
         float posx = transform.position.x;
+
         float posy = transform.position.y;
 
-        transform.Translate(Vector3.right * Time.deltaTime * desplSpeed*desplx);
+        transform.Translate(Vector3.right * Time.deltaTime * desplSpeed * desplx);
         transform.Translate(Vector3.up * Time.deltaTime * desplSpeed * desply);
 
         //transform.Rotate(0f, 0f, desplr *Time.deltaTime*-rotationSpeed);
 
-        if(posx > 20f && desplx > 0)
+        if (posx > 20f && desplx > 0)
         {
             transform.position = new Vector3(posx, transform.position.y, transform.position.z);
         }
@@ -55,8 +51,8 @@ public class Nave : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, posy, transform.position.z);
         }
-        
 
-       
+
+
     }
 }
