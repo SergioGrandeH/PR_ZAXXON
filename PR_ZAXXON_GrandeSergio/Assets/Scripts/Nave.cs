@@ -51,8 +51,17 @@ public class Nave : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, posy, transform.position.z);
         }
-
-
-
     }
+   
+    public class selfDestroy : MonoBehaviour
+    {
+        void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.tag == "Enemigo")
+            {
+                Destroy(this.gameObject);
+            }
+        }
+    }
+
 }
