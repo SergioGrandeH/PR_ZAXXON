@@ -52,6 +52,7 @@ public class Nave : MonoBehaviour
             transform.position = new Vector3(transform.position.x, posy, transform.position.z);
         }
     }
+
    
     public class selfDestroy : MonoBehaviour
     {
@@ -62,6 +63,7 @@ public class Nave : MonoBehaviour
                 Destroy(this.gameObject);
             }
         }
+       
     }
 
 }
